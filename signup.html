@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/signup.css" type="text/css">
+    <title>Course website SignUp</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/">Online Course</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/signup">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+              <div class="card border-0 shadow rounded-3 my-5">
+                <div class="card-body p-4 p-sm-5">
+                  <h5 class="card-title text-center mb-5 fw-light fs-5">Sign Up As a Student</h5>
+                  <h6>Welcome to Online Course Website</h6>
+                  <form method="post" action="/signup">
+                    <div class="form-floating mb-3">
+                      <label>Name</label>
+                      <input type="name" class="form-control" name="name" placeholder="John">
+                      
+                    </div>
+                    <div class="form-floating mb-3">
+                      <label>Phone Number</label>
+                    <input type="name" class="form-control" name="number" placeholder="0123456789">   
+                  </div>
+                    <div class="form-floating mb-3">
+                      <label>Email address</label>
+                      <input type="email" class="form-control" name="email" placeholder="name@example.com">
+                      
+                    </div>
+                    <div class="form-floating mb-3">
+                        <label>Password</label>
+                      <input type="password" class="form-control" name="password" placeholder="Password">
+                      
+                    </div>
+                    
+                    <div class="buttons">
+                    <div class="d-grid stu">
+                      <button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit" >Student Sign Up</button>
+                    </div>
+                   
+                  </div>
+                    <hr class="my-4">
+                    <span>Already an existing user?&nbsp;<a href="/login">Login</a></span>
+                    <span>Sign Up as a Teacher&nbsp;<a href="/signup-teacher">Sign Up</a></span>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
